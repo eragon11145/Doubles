@@ -9,6 +9,7 @@
   ];
 
   var randomIndex = Math.floor(Math.random() * images.length);
+  document.getElementById("randomImage").src = images[randomIndex];
 
   return(images[randomIndex])
 </script>
